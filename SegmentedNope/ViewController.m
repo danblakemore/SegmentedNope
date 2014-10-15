@@ -24,7 +24,7 @@
     _control = [[UISegmentedControl alloc] initWithItems:@[@"Thing 1", @"Thing 2"]];
     [_control setSelectedSegmentIndex:0];
     [_control setTintColor:[UIColor blackColor]];
-    [_control setFrame:CGRectMake(100, 100, 300, 50)];
+    [_control setFrame:CGRectMake(50, 100, 300, 50)];
     [_control addTarget:self action:@selector(controlPressed:) forControlEvents:UIControlEventValueChanged];
     [[self view] addSubview:_control];
 }
